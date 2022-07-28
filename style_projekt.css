@@ -1,0 +1,49 @@
+header nav.navigace h1 {
+    padding-top: 0.8rem;
+}
+
+.detail-ikona {
+    font-size: 8rem;
+}
+
+.center{
+    text-align: center
+}
+article ul{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-flex;
+}
+article ul li{
+    padding-left: 25px;
+
+}
+
+
+
+article h1, article h2{
+    text-align: center;
+    margin: 50px;
+}
+div.jetelicek{
+    height: 200px;
+    margin-top: 50px;
+    background-image: url(clover-gac92c6059_1920.jpg);
+}
+body>footer{
+    width: 100%;
+    text-align: center ;
+    margin-top: 50px;
+
+}
+.navigace{
+    background-color: rgb(34, 146, 0);
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.content{
+    flex: 1 0 auto;
+}
